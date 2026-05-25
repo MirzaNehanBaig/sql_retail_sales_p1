@@ -200,6 +200,19 @@ GROUP BY shift
 - **Trend Analysis**: Insights into sales trends across different months and shifts.
 - **Customer Insights**: Reports on top customers and unique customer counts per category.
 
+- ## Phase 2: Interactive Power BI Executive Dashboard
+
+To bring the SQL insights to life, I connected Power BI directly to the live PostgreSQL retail database to build an interactive executive dashboard. This phase focuses on user-driven data exploration and modern UI/UX design principles.
+
+### Key Features Implemented:
+* **Live Database Connection:** Established a direct connection to the local PostgreSQL database to ensure data consistency.
+* **Dynamic Slicers (The Remote Control):** Built modern tile-style buttons allowing executives to instantly filter the entire dashboard by **Gender**.
+* **Cross-Filtering & Drill-Downs:** Enabled interactive visual filtering—clicking a product category updates the trend lines and revenue KPIs instantly.
+* **Clean KPI Blocks:** Formatted raw fields into clean metrics featuring soft modern drop-shadows and executive-ready titles (e.g., *Total Revenue*).
+
+### Dashboard Preview:<img width="1462" height="796" alt="Screenshot 2026-05-25 193644" src="https://github.com/user-attachments/assets/dd82cc1b-5a4c-4e36-8af5-bfab8ce6c7b8" />
+
+
 ## Conclusion
 
 This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. The findings from this project can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
